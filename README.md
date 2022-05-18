@@ -1,4 +1,2 @@
 # JavaRushTasks
-asd
-afsafasfsafs
-faafsafasfasfasf
+привет. сегодня 18е мая. начал заниматься на javarush
