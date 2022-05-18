@@ -9,6 +9,5 @@ public class Solution {
     public static void main(String[] args) {
         System.out.println("Аварийное питание включено \n" +
                             "Ручное управление включено");
-
     }
 }
