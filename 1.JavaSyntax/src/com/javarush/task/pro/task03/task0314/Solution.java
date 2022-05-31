@@ -10,9 +10,12 @@ public class Solution {
     public static String secret = "AmIGo";
 
     public static void main(String[] args) {
-        //напишите тут ваш код
-        System.out.println("доступ разрешен");
-        //напишите тут ваш код
-        System.out.println("доступ запрещен");
+        Scanner console = new Scanner(System.in);
+        String string = console.nextLine();
+        if (secret.equalsIgnoreCase(string)) {
+            System.out.println("доступ разрешен");
+        } else {
+            System.out.println("доступ запрещен");
+        }
     }
 }
