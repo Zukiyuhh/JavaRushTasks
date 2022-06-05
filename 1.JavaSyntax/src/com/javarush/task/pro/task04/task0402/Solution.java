@@ -12,10 +12,9 @@ public class Solution {
         Scanner console = new Scanner(System.in);
         String name = console.nextLine();
         int i = 0;
-        while (i < 10){
+        while(i < 10){
             System.out.println(name + text);
             i++;
         }
-
     }
 }
